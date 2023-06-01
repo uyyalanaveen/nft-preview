@@ -115,3 +115,7 @@ img{
 span{
     color: hsl(215, 51%, 70%);
 }
+.logo
+{
+    margin-top:10px;
+}
