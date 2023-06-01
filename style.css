@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.container {
+    background: hsl(216, 50%, 16%);
+    width: 360px;
+    border-radius: 20px;
+    height: 80%;
+    box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.5);
+}
+img{
+    width: 100%;
+    border-radius: 40px;
+    padding: 24px;
+}
+.content
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    /* flex-wrap: wrap; */
+
+}
+.card
+{
+    
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    
+    /* margin-left: 0 auto; */
+}
+.img2 
+{
+    width: 16%;
+    height: 16%;
+    float: left;
+    margin-top: -2px;
+}
+.money
+{
+    position: relative;
+    margin-top: 6%;
+    margin-left: -14px;
+    color: hsl(178, 100%, 50%);
+}
+.time
+{
+    position: relative;
+    margin-top: 6%;
+    margin-left: auto;
+    /* color: hsl(178, 100%, 50%); */
+    color: hsl(215, 51%, 70%);
+    position: relative;
+    left: -23px;
+}
+.img3
+{
+    width: 17%;
+    height: 17%;
+    margin-top: 2px;
+    margin-left: auto;
+    position: relative;
+    left: 15%;
+    
+}
+.head
+{
+    font-weight: 600;
+    font-size: 21px;
+    margin-left: 24px;
+}
+.para
+{
+  
+    font-size: 18px;
+    margin-left: 24px;
+    margin-right: 20px;
+    opacity: 0.5;
+    margin-top: 17px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.img4
+{
+    width: 20%;
+    height: 20%;
+    margin-top: -17px;
+    margin-left: auto;
+    position: relative;
+    left: -2%;
+
+    
+}
+.g{
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+span{
+    color: hsl(215, 51%, 70%);
+}
