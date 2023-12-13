@@ -17,7 +17,7 @@ body
     background: hsl(216, 50%, 16%);
     width: 360px;
     border-radius: 20px;
-    height: 75%;
+    height: 84%;
     box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.5);
 }
 img{
@@ -117,5 +117,5 @@ span{
 }
 .logo
 {
-    margin-top:10px;
+    margin-top: 0;
 }
